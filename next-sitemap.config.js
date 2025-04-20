@@ -1,6 +1,6 @@
 // next-sitemap.config.js
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://scale.ac',
+    siteUrl: process.env.SITE_URL || 'https://scale-lemon.vercel.app/',
     generateRobotsTxt: true,
     exclude: ['/scale/*'],
     robotsTxtOptions: {
